@@ -1,0 +1,398 @@
+/* general text formatting */
+
+section header h1
+{
+	Color:   #f4d03f  ;
+	font-size: 4em;
+	margin: 0.5em 0 0.1em 0.2em;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+	text-shadow: 2px 2px #ff0000;
+}
+section header h2
+{
+	Color:  #f9e79f   ;
+	font-size: 1.3em;
+	margin: 0.2em 0 0.8em 1em;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+	text-shadow: 1px 1px #000;
+}
+section
+{
+	border-radius: 25px;
+	border: 8px solid;
+	border-color: #21618c   ;
+	background-color:  #d4e6f1  ;
+	margin: 0.5em 0 0.1em 0.5em;
+}
+
+section main
+{
+	border-radius: 25px;
+	background-color: #17a589;
+	font-size: 1.5em;
+	color:  #85c1e9 ;
+	height: 50em;
+	margin: 0.9em 0 0.1em 2em;
+	padding: 0em 0.5em 0.5em 0.5em;
+}
+table, th, td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+section main table th
+{
+	text-align: left;
+}
+tr:nth-child(even)
+{
+	background-color:  #ebf5fb;
+
+}
+tr:nth-child(odd)
+{
+	background-color:  #d6eaf8 ;
+}
+
+
+a:link {
+  color: #0e1166;
+  text-decoration: none;
+}
+a:visited {
+  color: #150f42;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.topbar {
+  background-color: #111c3b     ;
+  overflow: hidden;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+border-bottom: 4px solid red;
+   padding: 50px 16px;
+   position: relative;
+  
+}
+.login{
+   top:7px;
+right:5em;
+position:absolute;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: normal;
+
+}
+.login button {
+  float: right;
+  padding: 5px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+  color: black;
+  border: 2px solid #4CAF50; 
+  margin-left: 10px;
+   background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 2px;
+}
+.login button:hover{
+	 background-color: white; /* Green */
+  color: black;
+}
+body{
+	background-color: #f5f6fa;
+}
+.bartext a {
+	top:7px;
+	left:6em;
+	position:absolute;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: normal;
+  opacity:0.7;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+
+}
+
+.logo{
+	top:7px;
+	position:absolute;
+	  float: left;
+	opacity:0.8;
+	  padding: 0px 16px 10px;
+
+}
+.logo:hover{
+
+	opacity:1;
+}
+
+.bartext a:hover {
+  opacity:1;
+
+}
+#logout{
+	     top:7px;
+right:1em;
+position:absolute;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: normal;
+
+	
+}
+#logout button{
+	  float: right;
+  padding: 5px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+  color: black;
+  border: 2px solid #4CAF50; 
+  margin-left: 10px;
+   background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 2px;
+}
+
+#logout button:hover{
+		 background-color: white; /* Green */
+  color: black;
+}
+#acc p{
+  color: white;
+    text-decoration: none;
+
+}
+.topictable{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+	  border: 1px solid #d7d8de; /* Green */
+font-size: 23px;
+   margin: 50px 0px 10px  10px;
+}
+#topic{
+		padding: 5px 870px 5px 15px;
+}
+
+#date{
+	padding: 5px 60px 5px 0px;
+
+}
+
+#date2{
+	padding: 5px 10px 5px 0px;
+
+}
+#op{
+	padding: 5px 30px 5px 0px;
+
+}
+#topictitle{
+padding: 5px 520px 5px 15px;
+}
+#topictitle2{
+padding: 5px 670px 5px 15px;
+}
+
+.topictable td{
+padding: 10px 0px 10px 10px;	 
+font-size: 17px;
+border-bottom:1px solid #d7d8de;
+
+}
+.topictable td:hover{
+ background-color: #e8e8e8; /* Green */
+}
+
+.topictable th{
+	 
+ background-color: #111c3b; /* Green */
+ color:white;
+ }
+ .unsticky{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+	  border: 1px solid #d7d8de; /* Green */
+font-size: 23px;
+   margin: 0px 0px 10px  10px;
+}
+ .unsticky td{
+padding: 10px 0px 10px 15px;	 
+font-size: 17px;
+border-bottom:1px solid #d7d8de;
+
+}
+.unsticky  td:hover{
+ background-color: #e8e8e8; /* Green */
+}
+
+.unsticky  th{
+	 
+ background-color: #111c3b; /* Green */
+ color:white;
+ }
+#cancel{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+  color: black;
+  border: 2px solid #4CAF50; 
+
+   background-color: #4CAF50; /* Green */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 2px;
+margin: 0px 0px 10px  0px;
+	top:41.3em;
+	left:33em;
+	position:absolute;
+}
+#logout{
+	     top:7px;
+right:1em;
+position:absolute;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: normal;
+
+	
+}
+#logout button{
+	  float: right;
+  padding: 5px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+  color: black;
+  border: 2px solid #4CAF50; 
+  margin-left: 10px;
+   background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 2px;
+}
+
+#logout button:hover{
+		 background-color: white; /* Green */
+  color: black;
+}
+#newpost{
+	  padding: 0px 0px 50px  50px;
+	  		 background-color: #f2f2f2; /* Green */
+	   margin: 10px 350px 0px  350px;
+  border: 0.5px solid #111c3b; /* Green */
+   border-radius: 5px;
+
+}
+#newpost label{
+	  padding: 10px 0px 0px  0px;
+	   margin: 20px 0px 10px  140px;
+		  font-size: 25px;
+
+
+}
+#newpost input{
+	  height:30px;
+	  width:500px;
+	   margin: 10px 0px 10px  0px;
+	   border-radius: 4px;
+
+}
+#newpost textarea{
+	border-radius: 4px;
+	   margin: 0px 0px 10px  0px;
+}
+
+#newpost button{
+     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+  color: black;
+  border: 2px solid #4CAF50; 
+
+   background-color: #4CAF50; /* Green */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 2px;
+margin: 0px 0px 10px  0px;
+	top:41.3em;
+	position:absolute;
+}
+#sticky{
+	transform: scale(0.5);
+	   bottom:15px;
+right:20em;
+position:relative;
+  float: right;
+
+  text-align: center;
+}  
+.newpostbutton{
+	float: right;
+padding: 10px 10px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+  color: black;
+  border: 2px solid #4CAF50; 
+  margin-right: 20px;
+   background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 2px;
+}
+.newpostbutton:hover{
+	 background-color: white; /* Green */
+  color: black;
+}
